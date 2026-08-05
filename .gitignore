@@ -1,0 +1,8 @@
+sub0/
+stream.md
+buffer.md
+meta.md
+media/
+*.log
+__pycache__/
+.env
