@@ -1,8 +1,10 @@
+import os
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-# Получи токен у @BotFather, вставь сюда
-TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+if not TOKEN:
+    raise ValueError("TELEGRAM_BOT_TOKEN не задан. Выполни: export TELEGRAM_BOT_TOKEN=...")
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
