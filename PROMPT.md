@@ -2,7 +2,7 @@
 
 ## Контекст
 Проект: POSOH / Sub-0. Локальный AI-секретарь, синхронизирующий жизнь с ИИ.
-GitHub: [ссылка]
+GitHub: https://github.com/shaenxxx-commits/posoh
 Ключевые файлы: VISION.md, PRINCIPLES.md, ARCHITECTURE.md, CURRENT_STATE.md.
 
 ## Правила
